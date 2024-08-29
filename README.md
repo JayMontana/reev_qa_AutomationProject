@@ -27,7 +27,7 @@ Open [http://localhost:3000] to view it in the browser.
 
 3. **Run one of the fallowing commands listed below:**  
    - `npm run testExec`
-   This command executes all the tests defined in your Playwright test suite using the default configuration. This will run Playwright's browser testing tool. You can see all tests executed and have the option to open a trace to dive into the details of the test execution.
+   This command executes all the tests defined inside Playwright's test-suite script. This will run Playwright's browser testing tool where you can see all tests executed and have the option to open a trace to dive into the details of the test execution.
 
    - `npm run testui`  
    Launch the Playwright Test Runner UI for an interactive test-running experience. This command opens the Playwright Test Runner with a user interface, allowing you to select and run tests interactively.
