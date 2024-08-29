@@ -1,0 +1,1 @@
+export const validSerialNumbers = ['123-ABC-789', '987-ZYX-654'];

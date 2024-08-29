@@ -1,0 +1,29 @@
+{
+  "name": "qa-automation-task",
+  "workspaces": [
+    "packages/server",
+    "packages/web-app"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start --workspace=web-app | npm run start --workspace=server",
+    "testExec": "npx playwright test",
+    "testui": "npx playwright test --ui",
+    "debug": "npx playwright --debug",
+    "headed": "npx playwright headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.46.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
