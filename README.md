@@ -42,9 +42,9 @@ Open [http://localhost:3000] to view it in the browser.
 ## Test Project Exploration (POM Design Pattern)
    The project contains the fallowing directories:
    - **tests**: This directory contains test scripts, feature and test data files.
-    - **features**: Contains a feature file written in Gherkin syntax, for better readability by non-technical stakeholders, product owners, business analysts, and testers.
-    - **serialNumber_TestSuite**: Contains the test script of the project.
-    - **utils**: Contains reusable utility functions and testing data for additional testing tools.
+   - **features**: Contains a feature file written in Gherkin syntax, for better readability by non-technical stakeholders, product owners, business analysts, and testers.
+   - **serialNumber_TestSuite**: Contains the test script of the project.
+   - **utils**: Contains reusable utility functions and testing data for additional testing tools.
    - **pages**: Contains the Page Object script that contains an abstraction layer for interacting with the user interface of an application. Used for encapsulating elements and behaviors (actions) of a web page in a structured and reusable manner.
    
 
